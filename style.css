@@ -19,14 +19,19 @@ body {
 
 @font-face {
     font-family: 'machine';
-    src: url(./ostrich_sans_inline/Ostrich\ Sans\ Inline-regular.otf) format('opentype');
+    src: url(./QueenOfClubs-p2rO.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'divdonis';
+    src: url(./YoungRich-GOv6m.otf) format('opentype');
+}
+
 h1 {
+    text-align: center; 
     font-size: 50px;
-}
-h2 {
-    font-size:1.5vw;
-    padding-top: 50px;
+    font-family: 'machine';
+    letter-spacing: 20px;
+    color: white;
 }
 img {
     z-index: 1;
@@ -41,10 +46,8 @@ img {
 
 #header {
     text-align: center; 
-    font-family: 'machine';
+    font-family: 'divdonis';
     color: white;
-    text-shadow: blue, 50rem;
-
 }
 #mainpic img{ 
     width: 34%;
@@ -60,6 +63,9 @@ img {
     font-family: 'machine';
     display: flex;
     justify-content: center;
+    letter-spacing: 5px;
+    border-bottom: solid;
+    border-color: white;
   
 }
 
@@ -73,10 +79,11 @@ img {
     display: inline;
 }
 .topnav a:hover {
-    color: #abc;
+    opacity: 0;
 }
 .topnav a.active {
     background-color: #c4adad;
     color: white;
     display: inline-block;
+    opacity: 1;
 }

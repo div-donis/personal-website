@@ -1,5 +1,5 @@
 const myHeading = document.createElement('h2');
-myHeading.textContent = "div-donis";
+myHeading.textContent = "div donis";
 document.querySelector('body').appendChild(myHeading);
 document.getElementsByTagName("h2")[0].setAttribute("id", "header"); 
 particlesJS("particles-js", {
