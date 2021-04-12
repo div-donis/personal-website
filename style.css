@@ -1,11 +1,82 @@
+body { 
+    background-color: black;
+    margin:0; 
+    font:normal 75% Arial, Helvetica, sans-serif; 
+}  
+
+#particles-js { 
+    z-index: -1;
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    background-color: none; 
+    background-image: url(""); 
+    background-size: cover; 
+    margin-top: -11px; 
+} 
+
+
+
 @font-face {
-    font-family: 'monterey';
-    src: url(./monterey/MontereyFLF.ttf) format('truetype');
+    font-family: 'machine';
+    src: url(./ostrich_sans_inline/Ostrich\ Sans\ Inline-regular.otf) format('opentype');
+}
+h1 {
+    font-size: 50px;
 }
 h2 {
-    font-size: xx-small;
+    font-size:1.5vw;
+    padding-top: 50px;
 }
-#header {
+img {
+    z-index: 1;
+    height: auto;
+    width: 50%;
+    display: inline-block;
     text-align: center;
-    font-family: 'monterey';
+    margin-top: 30px;
+    margin-left: 25%;
+   
+}
+
+#header {
+    text-align: center; 
+    font-family: 'machine';
+    color: white;
+    text-shadow: blue, 50rem;
+
+}
+#mainpic img{ 
+    width: 34%;
+    height: auto;
+    border-radius: 2%;
+    display: flex;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.topnav {
+    font-family: 'machine';
+    display: flex;
+    justify-content: center;
+  
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 2vw;
+    display: inline;
+}
+.topnav a:hover {
+    color: #abc;
+}
+.topnav a.active {
+    background-color: #c4adad;
+    color: white;
+    display: inline-block;
 }
