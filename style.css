@@ -2,8 +2,7 @@ body {
     background-color: black;
     margin:0; 
     font:normal 75% Arial, Helvetica, sans-serif; 
-}  
-
+}
 #particles-js { 
     z-index: -1;
     position: fixed; 
@@ -36,11 +35,11 @@ body {
 img {
     z-index: 1;
     height: auto;
-    width: 50%;
+    width: 70%;
     display: inline-block;
     text-align: center;
     margin-top: 30px;
-    margin-left: 25%;
+    margin-left: 15%;
    
 }
 
